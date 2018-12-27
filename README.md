@@ -11,7 +11,7 @@ FlyBirdYoYo-UI 最快的Vue + Asp.net Core 开发管理系统 框架！
 - [Vue Admin](http://www.cnblogs.com/taylorchen/p/6083099.html)     
 
 # How To Run
-Step 1:     
+Step 1:Get The Server Project and run Server     
 
 git clone https://github.com/micro-chen/FlyBirdYoYo.git     
 cd FlyBirdYoYo.Web      
