@@ -28,7 +28,7 @@ node modules downlowd: https://pan.baidu.com/s/1cpplARVq7-rmTbSePu6Q0w
 npm run dev     
 #Login
 1 UserName:admin ; Password:123456 ;        
-2 Download Google TowFaceAuth，Publick Key: JWVCTWT4FRMHI2ZG ,Input the Digest Code.        
+2 Download Google Authenticator（Google身份验证器），Publick Key: JWVCTWT4FRMHI2ZG ,Input the Digest Code.        
 
 #Connect Me
 1021776019@qq.com 
