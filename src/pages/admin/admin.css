@@ -1,0 +1,39 @@
+.float_r {
+  float: right;
+}
+
+.float_l{
+    float: left
+}
+
+.el-tabs__header {
+  padding: 0;
+  position: relative;
+  margin: 0 0 1px !important;
+}
+
+.el-scrollbar>>>.el-scrollbar__wrap {
+  overflow-x: hidden !important;
+}
+
+.content-left {
+  background-color: rgb(48, 65, 86);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.tab-container {
+  height: 100%;
+  margin-top: -9px;
+}
+
+/* fix:elementui 的tabs组件出现加粗边框问题 */
+.el-tabs__item:focus.is-active.is-focus:not(:active) {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.el-tabs__content {
+  flex-grow: 1;
+  overflow-y: auto;
+}

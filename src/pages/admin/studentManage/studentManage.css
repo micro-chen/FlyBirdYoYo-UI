@@ -1,0 +1,30 @@
+.label-title {
+    text-align: right;
+    font-size: 12px;
+    /* margin-right: 5px; */
+    color: #365064;
+    font-style: normal!important;
+    line-height: 25px;
+      
+  }
+  .float_c{
+    float: left;
+    text-align:center;
+  }
+  .float_r {
+    float: right;
+  }
+  
+  .float_l{
+      float: left
+  }
+  .search{
+      height: 30px;
+      width: 50px;
+  }
+  .el-button{
+      padding: 0;
+  }
+  .filterHeader{
+      margin-bottom: 10px;
+  }

@@ -1,0 +1,348 @@
+body {
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 60px;
+    background: #1876cf;
+}
+
+    .header div {
+        margin: 0 auto;
+        width: 1000px;
+    }
+
+h1 {
+    float: left;
+    margin-top: 18px;
+    width: 112px;
+    height: 24px;
+    background: url('https://alicdn.huanleguang.com/trade/ddx/ddx-logo.png') 0 0 no-repeat;
+}
+
+.tel {
+    float: right;
+    line-height: 60px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.content {
+    margin: 30px auto 0;
+    width: 1000px;
+}
+
+
+
+.head {
+    height: 378px;
+}
+
+.logo {
+    float: left;
+    width: 230px;
+    height: 230px;
+    background: url('https://alicdn.huanleguang.com/trade/ddx/head-logo.png') 0 0 no-repeat;
+}
+
+.con {
+    float: right;
+    width: 750px;
+}
+
+    .con p {
+        line-height: 12px;
+        font-size: 12px;
+        color: #333;
+    }
+
+    .con a {
+        display: inline-block;
+        width: 76px;
+        height: 30px;
+        border: 1px solid #e1e1e1;
+        line-height: 32px;
+        text-align: center;
+        color: #666;
+    }
+
+        .con a:hover {
+            border: 1px solid #3096f5;
+            color: #3096f5;
+        }
+
+    .con .select {
+        border: 1px solid #3096f5;
+        color: #3096f5;
+    }
+
+    .con .title {
+        margin-bottom: 17px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .con .details {
+        margin-bottom: 27px;
+        line-height: 18px;
+        font-size: 12px;
+        color: #666;
+    }
+
+    .con .price {
+        margin-bottom: 14px;
+    }
+
+        .con .price span {
+            font-size: 20px;
+            color: #ed353e;
+        }
+
+    .con .num {
+        margin-bottom: 14px;
+    }
+
+    .con .version {
+        margin-bottom: 10px;
+    }
+
+        .con .version a {
+            border: 1px solid #3096f5;
+            color: #3096f5;
+        }
+
+.btns a {
+    margin-right: 4px;
+}
+
+.btn {
+    display: block;
+    margin: 30px 0 0 40px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    background: #0077ff;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.order-btn .btn {
+    font-size: 14px;
+}
+
+.btn:hover {
+    border: none;
+    background: #0f60e8;
+    color: #fff;
+}
+
+.left {
+    float: left;
+    width: 230px;
+    height: 340px;
+    font-size: 12px;
+    color: #333;
+    border: 1px #e1e1e1 solid;
+}
+
+    .left .title {
+        padding-left: 12px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #f4f4f4;
+    }
+
+    .left .info {
+        padding: 12px 12px 12px 90px;
+        height: 70px;
+        font-weight: bold;
+        background: url('https://alicdn.huanleguang.com/trade/ddx/prof-logo.png') 12px 12px no-repeat;
+    }
+
+    .left .desc {
+        padding: 0 12px;
+        color: #666;
+    }
+
+    .left .contact {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        line-height: 1.5;
+        border-bottom: 1px #e1e1e1 dashed;
+    }
+
+        .left .contact label {
+            color: #999;
+        }
+
+.right {
+    float: right;
+    width: 750px;
+    border: 1px solid #e1e1e1;
+}
+
+img {
+    display: block;
+}
+
+.order-title {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.order-list {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 12px;
+    width: 100%;
+    border-spacing: 0;
+}
+
+    .order-list th {
+        line-height: 36px;
+        font-weight: normal;
+        color: #999;
+        border-top: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .order-list td {
+        line-height: 64px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+        .order-list th:first-of-type, .order-list td:first-of-type {
+            padding-left: 24px;
+        }
+
+.order-total {
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height: 100px;
+    font-size: 14px;
+    background-color: #f7faff;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+    .order-total img {
+        display: inline;
+        vertical-align: -6px;
+    }
+
+.total-price {
+    float: right;
+    color: #666;
+}
+
+    .total-price em {
+        color: #0077ff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+        .total-price em::before {
+            content: '¥';
+            margin-right: 2px;
+        }
+
+.order-btn {
+    float: right;
+}
+
+.dialog::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.dialog {
+    display: none;
+    z-index: 10;
+    color: #333;
+}
+
+.dialog-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+    height: 280px;
+    text-align: center;
+    background-color: #fff;
+}
+
+    .dialog-content .title {
+        margin-top: 60px;
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 26px;
+    }
+
+    .dialog-content .desc {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    .dialog-content .btn {
+        width: 180px;
+        margin: 0 auto;
+    }
+
+.btn.normal-btn {
+    margin-top: 12px;
+    color: #333;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.normal-btn:hover {
+    color: #fff;
+    border-color: #0f60e8;
+    background-color: #0f60e8;
+}
+
+.link-close {
+    position: absolute;
+    right: 16px;
+    top: 14px;
+    line-height: 1;
+    font-size: 24px;
+    color: #666;
+}
+
+.link-back {
+    position: absolute;
+    right: 20px;
+    bottom: 16px;
+    font-size: 12px;
+    color: #3096f5;
+}
